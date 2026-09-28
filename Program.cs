@@ -99,7 +99,13 @@ namespace Caso_semana7
                         mostrar();
                     case 5:
                         //burbuja();
-                    break;
+                       break;
+                    case 6:
+                        Console.WriteLine("Gracias por usar el sistema");
+                    default:
+                        Console.WriteLine("Opcion incorrecta");
+                        break;
+
                 }
             }
         }
